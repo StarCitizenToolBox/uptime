@@ -19,8 +19,8 @@ status-website:
   cname: 
   # baseUrl: /your-repo-name
   logoUrl: https://avatars.githubusercontent.com/u/152617730?s=200&v=4
-  name: SctoolBox Upptime
-  introTitle: "SctoolBox Upptime"
+  name: SctoolBox Uptime
+  introTitle: "SctoolBox Uptime"
   introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
   navbar:
     - title: Status
