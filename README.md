@@ -4,8 +4,8 @@ This repository contains the open-source uptime monitor and status page for [Sta
 
 [![Uptime CI](https://github.com/StarCitizenToolBox/uptime/workflows/Uptime%20CI/badge.svg)](https://github.com/StarCitizenToolBox/uptime/actions?query=workflow%3A%22Uptime+CI%22)
 [![Response Time CI](https://github.com/StarCitizenToolBox/uptime/workflows/Response%20Time%20CI/badge.svg)](https://github.com/StarCitizenToolBox/uptime/actions?query=workflow%3A%22Response+Time+CI%22)
-[![Graphs CI](https://github.com/StarCitizenToolBox/uptme/workflows/Graphs%20CI/badge.svg)](https://github.com/StarCitizenToolBox/uptime/actions?query=workflow%3A%22Graphs+CI%22)
-[![Static Site CI](https://github.com/StarCitizenToolBox/pptime/workflows/Static%20Site%20CI/badge.svg)](https://github.com/StarCitizenToolBox/uptime/actions?query=workflow%3A%22Static+Site+CI%22)
+[![Graphs CI](https://github.com/StarCitizenToolBox/uptime/workflows/Graphs%20CI/badge.svg)](https://github.com/StarCitizenToolBox/uptime/actions?query=workflow%3A%22Graphs+CI%22)
+[![Static Site CI](https://github.com/StarCitizenToolBox/uptime/workflows/Static%20Site%20CI/badge.svg)](https://github.com/StarCitizenToolBox/uptime/actions?query=workflow%3A%22Static+Site+CI%22)
 [![Summary CI](https://github.com/StarCitizenToolBox/uptime/workflows/Summary%20CI/badge.svg)](https://github.com/StarCitizenToolBox/uptime/actions?query=workflow%3A%22Summary+CI%22)
 
 With [Upptime](https://upptime.js.org), you can get your own unlimited and free uptime monitor and status page, powered entirely by a GitHub repository. We use [Issues](https://github.com/StarCitizenToolBox/uptime/issues) as incident reports, [Actions](https://github.com/StarCitizenToolBox/uptime/actions) as uptime monitors, and [Pages](https://StarCitizenToolBox.github.io/uptime) for the status page.
