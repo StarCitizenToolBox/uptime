@@ -18,7 +18,7 @@ status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: 
-  baseUrl: /
+  baseUrl: /uptime
   logoUrl: https://avatars.githubusercontent.com/u/152617730?s=200&v=4
   name: SctoolBox Uptime
   introTitle: "SctoolBox Uptime"
