@@ -58,17 +58,19 @@
     "url": "https://rss.42kit.com",
     "icon": "https://icons.duckduckgo.com/ip3/rss.42kit.com.ico",
     "slug": "rss-rss-api-42kit",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 182,
-    "timeDay": 125,
-    "timeWeek": 186,
-    "timeMonth": 182,
-    "timeYear": 182,
-    "dailyMinutesDown": {}
+    "time": 177,
+    "timeDay": 93,
+    "timeWeek": 174,
+    "timeMonth": 177,
+    "timeYear": 177,
+    "dailyMinutesDown": {
+      "2024-02-20": 0
+    }
   }
 ]
