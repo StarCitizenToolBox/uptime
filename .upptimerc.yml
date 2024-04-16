@@ -4,13 +4,21 @@ repo: uptime # The name of this repository
 
 sites:
   - name: GitApi
-    url: https://git.sctoolbox.sccsgo.com/SCToolBox/Api/src/branch/main/sc_doctor/version.json
+    url: https://git.sctoolbox.sccsgo.com/SCToolBox/Api/raw/branch/main/sc_doctor/version.json
   - name: RssApi
     url: https://rss.sctoolbox.sccsgo.com
   - name: Git Api Cloudflare
     url: https://git.scbox.org/SCToolBox/Api/raw/branch/main/sc_doctor/version.json
   - name: Rss Api 42kit
     url: https://rss.42kit.com
+  - name: GitApi-mirror-Cloudflare
+    url: https://gitapi.scbox.org/SCToolBox/Api/raw/branch/main/sc_doctor/version.json
+  - name: RSSApi-mirror-Cloudflare
+    url: https://rssapi.scbox.org
+  - name: DPSCalculator-mirror-Cloudflare
+    url: https://dps-mirrors.scbox.org/
+  - name: UEX-Mirror-Cloudflare
+    url : https://uex-mirrors.scbox.org/
     
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
