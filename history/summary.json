@@ -4,10 +4,10 @@
     "url": "https://git.sctoolbox.sccsgo.com/SCToolBox/Api/raw/branch/main/sc_doctor/version.json",
     "icon": "https://icons.duckduckgo.com/ip3/git.sctoolbox.sccsgo.com.ico",
     "slug": "git-api",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.95%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 1476,
@@ -15,16 +15,18 @@
     "timeWeek": 1558,
     "timeMonth": 1557,
     "timeYear": 1476,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-04-26": 1
+    }
   },
   {
     "name": "RssApi",
     "url": "https://rss.sctoolbox.sccsgo.com",
     "icon": "https://icons.duckduckgo.com/ip3/rss.sctoolbox.sccsgo.com.ico",
     "slug": "rss-api",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -33,25 +35,28 @@
     "timeWeek": 1167,
     "timeMonth": 1141,
     "timeYear": 1095,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-04-26": 0
+    }
   },
   {
     "name": "Git Api Cloudflare",
     "url": "https://git.scbox.org/SCToolBox/Api/raw/branch/main/sc_doctor/version.json",
     "icon": "https://icons.duckduckgo.com/ip3/git.scbox.org.ico",
     "slug": "git-api-cloudflare",
-    "status": "up",
+    "status": "down",
     "uptime": "99.97%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "99.81%",
     "uptimeMonth": "99.92%",
     "uptimeYear": "99.97%",
-    "time": 573,
-    "timeDay": 284,
-    "timeWeek": 821,
-    "timeMonth": 675,
-    "timeYear": 573,
+    "time": 570,
+    "timeDay": 236,
+    "timeWeek": 776,
+    "timeMonth": 664,
+    "timeYear": 570,
     "dailyMinutesDown": {
+      "2024-04-26": 0,
       "2024-04-24": 19,
       "2024-04-08": 17
     }
@@ -62,11 +67,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/rss.42kit.com.ico",
     "slug": "rss-api-42kit",
     "status": "up",
-    "uptime": "81.35%",
+    "uptime": "81.52%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "86.03%",
-    "uptimeYear": "81.35%",
+    "uptimeYear": "81.52%",
     "time": 192,
     "timeDay": 113,
     "timeWeek": 178,
