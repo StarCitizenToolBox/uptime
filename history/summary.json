@@ -73,7 +73,7 @@
     "uptime": "84.27%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "92.26%",
-    "uptimeMonth": "96.76%",
+    "uptimeMonth": "96.78%",
     "uptimeYear": "84.27%",
     "time": 214,
     "timeDay": 676,
@@ -160,19 +160,19 @@
     "url": "https://uex-mirrors.scbox.org/",
     "icon": "https://icons.duckduckgo.com/ip3/uex-mirrors.scbox.org.ico",
     "slug": "uex-mirror-cloudflare",
-    "status": "down",
-    "uptime": "99.82%",
-    "uptimeDay": "95.47%",
-    "uptimeWeek": "99.35%",
-    "uptimeMonth": "99.82%",
-    "uptimeYear": "99.82%",
-    "time": 2558,
-    "timeDay": 1389,
-    "timeWeek": 1785,
-    "timeMonth": 2558,
-    "timeYear": 2558,
+    "status": "up",
+    "uptime": "99.79%",
+    "uptimeDay": "94.68%",
+    "uptimeWeek": "99.24%",
+    "uptimeMonth": "99.79%",
+    "uptimeYear": "99.79%",
+    "time": 2537,
+    "timeDay": 1439,
+    "timeWeek": 1789,
+    "timeMonth": 2537,
+    "timeYear": 2537,
     "dailyMinutesDown": {
-      "2024-05-11": 65
+      "2024-05-11": 76
     }
   }
 ]
