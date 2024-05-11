@@ -70,11 +70,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/rss.42kit.com.ico",
     "slug": "rss-api-42kit",
     "status": "up",
-    "uptime": "84.15%",
+    "uptime": "84.16%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "92.26%",
-    "uptimeMonth": "94.78%",
-    "uptimeYear": "84.15%",
+    "uptimeMonth": "94.94%",
+    "uptimeYear": "84.16%",
     "time": 214,
     "timeDay": 676,
     "timeWeek": 369,
@@ -160,17 +160,19 @@
     "url": "https://uex-mirrors.scbox.org/",
     "icon": "https://icons.duckduckgo.com/ip3/uex-mirrors.scbox.org.ico",
     "slug": "uex-mirror-cloudflare",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 2881,
-    "timeDay": 1605,
-    "timeWeek": 2213,
-    "timeMonth": 2881,
-    "timeYear": 2881,
-    "dailyMinutesDown": {}
+    "time": 2813,
+    "timeDay": 1322,
+    "timeWeek": 2066,
+    "timeMonth": 2813,
+    "timeYear": 2813,
+    "dailyMinutesDown": {
+      "2024-05-11": 0
+    }
   }
 ]
