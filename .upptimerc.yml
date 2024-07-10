@@ -4,9 +4,9 @@ repo: uptime # The name of this repository
 
 sites:
   - name: GitApi
-    url: https://git.sctoolbox.sccsgo.com/SCToolBox/Api/raw/branch/main/sc_doctor/version.json
+    url: https://git.scbox.xkeyc.cn/SCToolBox/Api/raw/branch/main/sc_doctor/version.json
   - name: RssApi
-    url: https://rss.sctoolbox.sccsgo.com
+    url: https://rss.scbox.xkeyc.cn
   - name: Rss Api 42kit
     url: https://rss.42kit.com
   - name: GitApi-mirror-Cloudflare
