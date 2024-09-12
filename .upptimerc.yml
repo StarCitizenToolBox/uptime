@@ -14,9 +14,7 @@ sites:
   - name: RSSApi-mirror-Cloudflare
     url: https://rssapi.scbox.org
   - name: DPSCalculator-mirror-Cloudflare
-    url: https://dps-mirrors.scbox.org/
-  - name: UEX-Mirror-Cloudflare
-    url : https://uex-mirrors.scbox.org/
+    url: https://dps-mirrors.scbox.org
     
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
