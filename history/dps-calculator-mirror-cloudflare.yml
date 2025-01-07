@@ -1,7 +1,7 @@
 url: https://dps-mirrors.scbox.org
-status: up
-code: 200
-responseTime: 1835
-lastUpdated: 2025-01-06T23:19:14.230Z
+status: down
+code: 502
+responseTime: 3721
+lastUpdated: 2025-01-07T05:54:23.054Z
 startTime: 2024-04-16T03:38:55.406Z
 generator: Upptime <https://github.com/upptime/upptime>
