@@ -11,8 +11,6 @@ sites:
     url: https://rss.42kit.com
   - name: GitApi-mirror-Cloudflare
     url: https://gitapi.scbox.org/SCToolBox/Api/raw/branch/main/sc_doctor/version.json
-  - name: RSSApi-mirror-Cloudflare
-    url: https://rssapi.scbox.org
   - name: DPSCalculator-mirror-Cloudflare
     url: https://dps-mirrors.scbox.org
     
