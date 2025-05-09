@@ -11,10 +11,10 @@
     "uptimeMonth": "99.85%",
     "uptimeYear": "99.92%",
     "time": 1252,
-    "timeDay": 1079,
-    "timeWeek": 1048,
-    "timeMonth": 1123,
-    "timeYear": 1177,
+    "timeDay": 856,
+    "timeWeek": 1026,
+    "timeMonth": 1115,
+    "timeYear": 1176,
     "dailyMinutesDown": {
       "2025-05-06": 46,
       "2025-05-05": 21,
@@ -22,8 +22,7 @@
       "2024-12-17": 23,
       "2024-11-05": 26,
       "2024-07-27": 34,
-      "2024-05-18": 52,
-      "2024-05-09": 75
+      "2024-05-18": 52
     }
   },
   {
@@ -37,11 +36,11 @@
     "uptimeWeek": "99.00%",
     "uptimeMonth": "99.77%",
     "uptimeYear": "99.92%",
-    "time": 1099,
-    "timeDay": 1180,
-    "timeWeek": 1146,
-    "timeMonth": 1103,
-    "timeYear": 1096,
+    "time": 1098,
+    "timeDay": 890,
+    "timeWeek": 1135,
+    "timeMonth": 1104,
+    "timeYear": 1095,
     "dailyMinutesDown": {
       "2025-05-06": 45,
       "2025-05-05": 20,
@@ -50,8 +49,7 @@
       "2024-12-18": 158,
       "2024-11-05": 26,
       "2024-07-27": 16,
-      "2024-05-18": 52,
-      "2024-05-09": 75
+      "2024-05-18": 52
     }
   },
   {
@@ -60,16 +58,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/rss.42kit.com.ico",
     "slug": "rss-api-42kit",
     "status": "up",
-    "uptime": "96.51%",
-    "uptimeDay": "83.30%",
+    "uptime": "96.52%",
+    "uptimeDay": "100.00%",
     "uptimeWeek": "96.64%",
     "uptimeMonth": "99.05%",
-    "uptimeYear": "99.11%",
+    "uptimeYear": "99.22%",
     "time": 383,
-    "timeDay": 266,
-    "timeWeek": 281,
-    "timeMonth": 311,
-    "timeYear": 424,
+    "timeDay": 173,
+    "timeWeek": 261,
+    "timeMonth": 312,
+    "timeYear": 425,
     "dailyMinutesDown": {
       "2025-05-07": 317,
       "2025-05-06": 21,
@@ -91,8 +89,7 @@
       "2024-07-12": 521,
       "2024-07-11": 992,
       "2024-07-02": 21,
-      "2024-05-22": 289,
-      "2024-05-09": 299
+      "2024-05-22": 289
     }
   },
   {
@@ -101,15 +98,15 @@
     "icon": "https://icons.duckduckgo.com/ip3/gitapi.scbox.org.ico",
     "slug": "git-api-mirror-cloudflare",
     "status": "up",
-    "uptime": "94.09%",
-    "uptimeDay": "62.56%",
-    "uptimeWeek": "8.94%",
-    "uptimeMonth": "46.55%",
+    "uptime": "94.10%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "23.22%",
+    "uptimeMonth": "47.38%",
     "uptimeYear": "93.73%",
     "time": 841,
-    "timeDay": 724,
-    "timeWeek": 331,
-    "timeMonth": 686,
+    "timeDay": 675,
+    "timeWeek": 384,
+    "timeMonth": 703,
     "timeYear": 852,
     "dailyMinutesDown": {
       "2025-05-07": 616,
@@ -179,9 +176,9 @@
     "uptimeMonth": "89.39%",
     "uptimeYear": "98.25%",
     "time": 1922,
-    "timeDay": 2212,
-    "timeWeek": 2195,
-    "timeMonth": 1782,
+    "timeDay": 1883,
+    "timeWeek": 2144,
+    "timeMonth": 1785,
     "timeYear": 1947,
     "dailyMinutesDown": {
       "2025-05-05": 11,
