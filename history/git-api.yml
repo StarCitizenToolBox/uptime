@@ -1,7 +1,7 @@
 url: https://git.scbox.xkeyc.cn/SCToolBox/Api/raw/branch/main/sc_doctor/version.json
-status: down
-code: 502
-responseTime: 3081
-lastUpdated: 2025-09-07T21:13:30.145Z
+status: up
+code: 200
+responseTime: 1151
+lastUpdated: 2025-09-07T21:26:44.956Z
 startTime: 2024-02-05T12:56:57.210Z
 generator: Upptime <https://github.com/upptime/upptime>
