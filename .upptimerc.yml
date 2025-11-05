@@ -5,12 +5,19 @@ repo: uptime # The name of this repository
 sites:
   - name: GitApi
     url: https://git.scbox.xkeyc.cn/SCToolBox/Api/raw/branch/main/sc_doctor/version.json
+    method: HEAD
   - name: GitApi-HK-mirror
     url: https://gitapi.scbox.org/SCToolBox/Api/raw/branch/main/sc_doctor/version.json
+    method: HEAD
   - name: GitApi-EdgeOneCdn
     url: https://ecdn.git.scbox.xkeyc.cn/SCToolBox/Api/raw/branch/main/sc_doctor/version.json
+    method: HEAD
   - name: GitApi-mirror-Cloudflare
     url: https://gitapi.scbox.org/SCToolBox/Api/raw/branch/main/sc_doctor/version.json
+    method: HEAD
+  - name: News-api-EdgeOne
+    url: https://ecdn.news.scbox.xkeyc.cn/api/latest
+    method: HEAD
     
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
