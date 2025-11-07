@@ -66,18 +66,19 @@
     "url": "https://ecdn.git.scbox.xkeyc.cn/SCToolBox/Api/raw/branch/main/sc_doctor/version.json",
     "icon": "https://icons.duckduckgo.com/ip3/ecdn.git.scbox.xkeyc.cn.ico",
     "slug": "git-api-edge-one-cdn",
-    "status": "up",
-    "uptime": "99.59%",
-    "uptimeDay": "100.00%",
+    "status": "down",
+    "uptime": "99.61%",
+    "uptimeDay": "99.97%",
     "uptimeWeek": "99.82%",
-    "uptimeMonth": "99.59%",
-    "uptimeYear": "99.59%",
+    "uptimeMonth": "99.61%",
+    "uptimeYear": "99.61%",
     "time": 1241,
     "timeDay": 1087,
     "timeWeek": 1184,
     "timeMonth": 1241,
     "timeYear": 1241,
     "dailyMinutesDown": {
+      "2025-11-07": 1,
       "2025-11-05": 1,
       "2025-11-02": 17,
       "2025-10-29": 11,
@@ -98,12 +99,12 @@
     "uptimeDay": "100.00%",
     "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "94.42%",
+    "uptimeYear": "94.46%",
     "time": 696,
     "timeDay": 181,
     "timeWeek": 331,
     "timeMonth": 601,
-    "timeYear": 713,
+    "timeYear": 715,
     "dailyMinutesDown": {
       "2025-11-05": 1,
       "2025-07-03": 240,
@@ -153,9 +154,9 @@
     "url": "https://ecdn.news.scbox.xkeyc.cn/api/latest",
     "icon": "https://icons.duckduckgo.com/ip3/ecdn.news.scbox.xkeyc.cn.ico",
     "slug": "news-api-edge-one",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -164,6 +165,8 @@
     "timeWeek": 1377,
     "timeMonth": 1377,
     "timeYear": 1377,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-11-07": 0
+    }
   }
 ]
