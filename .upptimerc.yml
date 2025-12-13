@@ -22,9 +22,9 @@ sites:
   - name: 42Nav-ESA
     url: https://acdn.42nav.xkeyc.cn
   - name: Release-EdgeOne
-    url: https://ecdn.release.scbox.xkeyc.cn
+    url: https://ecdn.release.scbox.xkeyc.cn/index.json
   - name: Release-ESA
-    url: https://acdn.release.scbox.xkeyc.cn
+    url: https://acdn.release.scbox.xkeyc.cn/index.json
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
