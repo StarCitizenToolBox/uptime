@@ -9,11 +9,22 @@ sites:
     url: https://gitapi.scbox.org/SCToolBox/Api/raw/branch/main/sc_doctor/version.json
   - name: GitApi-EdgeOneCdn
     url: https://ecdn.git.scbox.xkeyc.cn/SCToolBox/Api/raw/branch/main/sc_doctor/version.json
+  - name: GitApi-ESA
+    url: https://acdn.git.scbox.xkeyc.cn/SCToolBox/Api/raw/branch/main/sc_doctor/version.json    
   - name: GitApi-mirror-Cloudflare
     url: https://gitapi.scbox.org/SCToolBox/Api/raw/branch/main/sc_doctor/version.json
   - name: News-api-EdgeOne
     url: https://ecdn.news.scbox.xkeyc.cn/api/latest
-    
+  - name: News-api-ESA
+    url: https://acdn.news.scbox.xkeyc.cn/api/latest
+  - name: 42Nav-EdgeOne
+    url: https://ecdn.42nav.xkeyc.cn
+  - name: 42Nav-ESA
+    url: https://acdn.42nav.xkeyc.cn
+  - name: Release-EdgeOne
+    url: https://ecdn.release.scbox.xkeyc.cn
+  - name: Release-ESA
+    url: https://acdn.release.scbox.xkeyc.cn
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
