@@ -1,7 +1,7 @@
-url: https://ecdn.release.scbox.xkeyc.cn
-status: down
-code: 404
-responseTime: 470
-lastUpdated: 2025-12-13T04:27:51.741Z
+url: https://ecdn.release.scbox.xkeyc.cn/index.json
+status: up
+code: 200
+responseTime: 840
+lastUpdated: 2025-12-13T04:29:36.036Z
 startTime: 2025-12-13T04:27:51.258Z
 generator: Upptime <https://github.com/upptime/upptime>
