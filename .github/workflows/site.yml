@@ -33,10 +33,11 @@ jobs:
           ref: ${{ github.head_ref }}
           token: ${{ secrets.GH_PAT || github.token }}
       - name: Generate site
-        uses: ./.github/actions/run-uptime-monitor
+        uses: upptime/uptime-monitor@v1.41.0
         with:
           command: "site"
-          github-token: ${{ secrets.GH_PAT || github.token }}
+        env:
+          GH_PAT: ${{ secrets.GH_PAT || github.token }}
       - uses: peaceiris/actions-gh-pages@v4
         name: GitHub Pages Deploy
         with:
