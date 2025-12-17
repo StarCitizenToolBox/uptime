@@ -21,7 +21,7 @@ runs:
 
     - name: Cache uptime-monitor build
       id: cache-uptime-monitor
-      uses: actions/cache@v3
+      uses: actions/cache@v4
       with:
         path: /tmp/uptime-monitor-build
         key: uptime-monitor-v1.41.0-custom-${{ hashFiles('.github/retry-fix.patch') }}
@@ -39,7 +39,7 @@ runs:
       shell: bash
       run: |
         cd /tmp/uptime-monitor-source
-        git apply $GITHUB_WORKSPACE/.github/retry-fix.patch
+        git apply "$GITHUB_WORKSPACE/.github/retry-fix.patch"
         npm ci
         npm run build
         mkdir -p /tmp/uptime-monitor-build
