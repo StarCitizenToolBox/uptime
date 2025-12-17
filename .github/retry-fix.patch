@@ -1,0 +1,34 @@
+diff --git a/src/update.ts b/src/update.ts
+index 909e973..e58ef85 100644
+--- a/src/update.ts
++++ b/src/update.ts
+@@ -494,19 +494,27 @@ export const update = async (shouldCommit = false) => {
+      * sure that it's not a false alarm
+      */
+     if (status === "down" || status === "degraded") {
+-      wait(1000);
++      await wait(10000);
+       const secondTry = await performTestOnce();
+       if (secondTry.status === "up") {
+         result = secondTry.result;
+         responseTime = secondTry.responseTime;
+         status = secondTry.status;
+       } else {
+-        wait(10000);
++        await wait(10000);
+         const thirdTry = await performTestOnce();
+         if (thirdTry.status === "up") {
+           result = thirdTry.result;
+           responseTime = thirdTry.responseTime;
+           status = thirdTry.status;
++        } else {
++          await wait(10000);
++          const fourthTry = await performTestOnce();
++          if (fourthTry.status === "up") {
++            result = fourthTry.result;
++            responseTime = fourthTry.responseTime;
++            status = fourthTry.status;
++          }
+         }
+       }
+     }
