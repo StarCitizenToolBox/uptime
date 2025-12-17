@@ -1,7 +1,8 @@
+diff --git a/src/update.ts b/src/update.ts
+index 909e973..e58ef85 100644
 --- a/src/update.ts
 +++ b/src/update.ts
-@@ -493,18 +493,28 @@ export const update = async (shouldCommit = false) => {
-      * If the site is down, we perform the test 2 more times to make
+@@ -494,19 +494,27 @@ export const update = async (shouldCommit = false) => {
       * sure that it's not a false alarm
       */
      if (status === "down" || status === "degraded") {
