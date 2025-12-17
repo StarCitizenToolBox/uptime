@@ -31,10 +31,13 @@ jobs:
         with:
           ref: ${{ github.head_ref }}
           token: ${{ secrets.GH_PAT || github.token }}
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
       - name: Update response time
-        uses: upptime/uptime-monitor@v1.41.0
+        uses: ./.github/actions/run-uptime-monitor
         with:
           command: "response-time"
-        env:
-          GH_PAT: ${{ secrets.GH_PAT || github.token }}
-          SECRETS_CONTEXT: ${{ toJson(secrets) }}
+          github-token: ${{ secrets.GH_PAT || github.token }}
+          secrets-context: ${{ toJson(secrets) }}

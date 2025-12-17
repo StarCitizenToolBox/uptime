@@ -32,36 +32,31 @@ jobs:
         with:
           ref: ${{ github.head_ref }}
           token: ${{ secrets.GH_PAT || github.token }}
-      - name: Update template
-        uses: upptime/uptime-monitor@v1.41.0
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          command: "update-template"
-        env:
-          GH_PAT: ${{ secrets.GH_PAT || github.token }}
+          node-version: '20'
       - name: Update response time
-        uses: upptime/uptime-monitor@v1.41.0
+        uses: ./.github/actions/run-uptime-monitor
         with:
           command: "response-time"
-        env:
-          GH_PAT: ${{ secrets.GH_PAT || github.token }}
-          SECRETS_CONTEXT: ${{ toJson(secrets) }}
+          github-token: ${{ secrets.GH_PAT || github.token }}
+          secrets-context: ${{ toJson(secrets) }}
       - name: Update summary in README
-        uses: upptime/uptime-monitor@v1.41.0
+        uses: ./.github/actions/run-uptime-monitor
         with:
           command: "readme"
-        env:
-          GH_PAT: ${{ secrets.GH_PAT || github.token }}
+          github-token: ${{ secrets.GH_PAT || github.token }}
       - name: Generate graphs
         uses: benc-uk/workflow-dispatch@v1
         with:
           workflow: Graphs CI
           token: ${{ secrets.GH_PAT || github.token }}
       - name: Generate site
-        uses: upptime/uptime-monitor@v1.41.0
+        uses: ./.github/actions/run-uptime-monitor
         with:
           command: "site"
-        env:
-          GH_PAT: ${{ secrets.GH_PAT || github.token }}
+          github-token: ${{ secrets.GH_PAT || github.token }}
       - uses: peaceiris/actions-gh-pages@v4
         name: GitHub Pages Deploy
         with:
