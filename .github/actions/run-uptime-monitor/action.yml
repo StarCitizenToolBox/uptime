@@ -14,13 +14,18 @@ inputs:
 runs:
   using: 'composite'
   steps:
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+
     - name: Cache uptime-monitor build
       id: cache-uptime-monitor
       uses: actions/cache@v3
       with:
         path: /tmp/uptime-monitor-build
         key: uptime-monitor-v1.41.0-custom-${{ hashFiles('.github/retry-fix.patch') }}
-    
+
     - name: Checkout uptime-monitor
       if: steps.cache-uptime-monitor.outputs.cache-hit != 'true'
       uses: actions/checkout@v4
@@ -28,7 +33,7 @@ runs:
         repository: upptime/uptime-monitor
         ref: v1.41.0
         path: /tmp/uptime-monitor-source
-    
+
     - name: Apply patch and build
       if: steps.cache-uptime-monitor.outputs.cache-hit != 'true'
       shell: bash
@@ -39,7 +44,7 @@ runs:
         npm run build
         mkdir -p /tmp/uptime-monitor-build
         cp -r dist node_modules package.json /tmp/uptime-monitor-build/
-    
+
     - name: Run uptime-monitor command
       shell: bash
       working-directory: ${{ github.workspace }}
