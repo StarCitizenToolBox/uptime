@@ -1,7 +1,7 @@
 url: https://gitapi.scbox.org/SCToolBox/Api/raw/branch/main/sc_doctor/version.json
-status: down
-code: 530
-responseTime: 281
-lastUpdated: 2026-01-13T11:29:55.047Z
+status: up
+code: 200
+responseTime: 826
+lastUpdated: 2026-01-13T13:04:29.249Z
 startTime: 2025-10-17T02:48:49.639Z
 generator: Upptime <https://github.com/upptime/upptime>
